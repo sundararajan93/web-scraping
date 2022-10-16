@@ -4,7 +4,8 @@ import re
 import urllib.request
 
 
-URL = 'https://www.digitalgyd.com/email-name-ideas/'
+#URL = 'https://www.digitalgyd.com/email-name-ideas/'
+URL = input("Enter the URL - ")
 open_url = urllib.request.urlopen(URL)
 html = open_url.read()
 
